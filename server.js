@@ -14,10 +14,12 @@ if (process.env.NODE_ENV === 'development') {
   app.use(errorhandler());
 }
 
-app.use(express.static(path.join(__dirname, 'material-ui/build')));
+app.use(express.static(path.join(__dirname, './build')));
 
 
 app.use(enrouten({ directory: 'routes' }));
 
 
-app.listen(port, () => console.log(`App listening on port ${port}!`));
+app.listen(port, () => {
+  console.log(`App listening on port ${port}!`);
+});
