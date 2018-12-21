@@ -1,0 +1,31 @@
+{
+  "name": "material-ui-with-express",
+  "version": "1.0.0",
+  "description": "material-ui-with-express boilerplate",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "cd material-ui && npm install && npm run build && cd .. && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svenkatreddy/material-ui-with-express.git"
+  },
+  "keywords": [
+    "material",
+    "ui",
+    "express",
+    "boilerplate"
+  ],
+  "author": "Venkat Reddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svenkatreddy/material-ui-with-express/issues"
+  },
+  "homepage": "https://github.com/svenkatreddy/material-ui-with-express#readme",
+  "dependencies": {
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.4",
+    "express-enrouten": "^1.3.0"
+  }
+}
